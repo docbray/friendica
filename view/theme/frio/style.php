@@ -52,15 +52,15 @@ if (! $schema) {
 }
 
 //Set some defaults - we have to do this after pulling owner settings, and we have to check for each setting
-//individually.  If we don't, we'll have problems if a user has set one, but not all options.
+//individually.  If we don't, we'll have problems if a user has set one, but not all options. Defaults altered from master
 if(! $nav_bg)
-	$nav_bg = "#708fa0";
+	$nav_bg = "#1c4519";
 if(! $nav_icon_color)
 	$nav_icon_color = "#fff";
 if(! $link_color)
-	$link_color = "#6fdbe8";
+	$link_color = "#424242";
 if(! $bgcolor)
-	$bgcolor = "#ededed";
+	$bgcolor = "#bdbdbd";
 if(! $contentbg_transp)
 	$contentbg_transp = 100;
 if(! $background_image)
